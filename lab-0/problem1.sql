@@ -16,3 +16,8 @@ create table department(
     d_location varchar2(50)
 );
 describe department;
+alter table employee
+add(
+    emp_salary int,
+    emp_bateofbirth date
+);
