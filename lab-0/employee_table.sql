@@ -9,3 +9,10 @@ create table employee(
     emp_deptno varchar2(10)    
 );
 describe employee;
+
+create table department(
+    dept_id varchar2(10),
+    d_name varchar2(80),
+    d_location varchar2(50)
+);
+describe department;
